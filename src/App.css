@@ -1,0 +1,214 @@
+body {
+    background-image: url('background3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+
+/* Task Manager Container */
+.d-flex {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  .flex-column {
+    flex-direction: column;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .m-auto {
+    margin: auto;
+  }
+  
+  .mt-5 {
+    margin-top: 50px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 20px;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Form Inputs and Buttons */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+  
+  .input-group input {
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: calc(50% - 10px);
+    margin-right: 10px;
+
+
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  input[type="text"]::placeholder {
+    font-style: italic;
+    color: #aaa;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Dropdown Select */
+  select.form-control {
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ced4da;
+  }
+  
+  select.form-control:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  /* Search Bar */
+  .input-group .input-group-text {
+    background-color: #f1f1f1;
+    border: 1px solid #ced4da;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .input-group input.form-control {
+    border-radius: 0 4px 4px 0;
+    padding-left: 40px;
+  }
+  
+  /* Task Counters */
+  .badge {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .badge.bg-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .badge.bg-warning {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .badge.bg-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .badge.bg-dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Tabulator Table */
+  .w-100 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .tabulator {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 30px;
+
+  }
+  
+  .tabulator-header {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tabulator .tabulator-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabulator .tabulator-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabulator .tabulator-row:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .tabulator .tabulator-header .tabulator-col {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  /* Toastify Custom Styles */
+  .Toastify__toast {
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #28a745;
+  }
+  
+  .Toastify__toast--info {
+    background-color: #17a2b8;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #dc3545;
+  }
+  
+  .Toastify__toast--warning {
+    background-color: #ffc107;
+  }
+  
